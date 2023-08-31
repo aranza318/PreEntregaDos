@@ -1,0 +1,92 @@
+[
+  {
+    "title": "Constelaciones Familiares",
+    "description": "Veni a constelar para mejorar tu calilda de vida",
+    "price": 1000,
+    "thumbnail": "https://img.freepik.com/vector-gratis/ninos-estudiando-astronomia-planetario_74855-20617.jpg?w=826&t=st=1691093486~exp=1691094086~hmac=a78538ef19101cc0e979555b4619c7939c7d3520dce518ce371ddb5f166b8869",
+    "code": "P1",
+    "stock": 10,
+    "id": 1,
+    "status": true,
+    "category": "Tratamientos"
+  },
+  {
+    "title": "Masaje Relajante",
+    "description": "Masaje manual anti-stress",
+    "price": 2000,
+    "thumbnail": "https://img.freepik.com/vector-gratis/ilustracion-concepto-terapeuta-masaje_114360-2902.jpg?w=900&t=st=1691093302~exp=1691093902~hmac=a9744d7d790aa2dc272a9eec7ccabc0c28e5dc66df96c6a4c55a858146a5fce4",
+    "code": "P4",
+    "stock": 20,
+    "id": 2,
+    "status": true,
+    "category": "Tratamientos"
+  },
+  {
+    "title": "Masajes Reductores",
+    "description": "Masaje manual que ayuda a perder peso",
+    "price": 2000,
+    "thumbnail": "https://img.freepik.com/vector-gratis/tipos-composicion-plana-masaje-paisaje-interior-interior-masajista-femenina-frotando-clientes-atras-ilustracion-vectorial_1284-81478.jpg?w=1380&t=st=1691091621~exp=1691092221~hmac=d1cb1dd7421159b51a61834c67cb53089011c1f90cec3e8b33e9c2358407e6e3",
+    "code": "P5",
+    "stock": 20,
+    "id": 3,
+    "status": true,
+    "category": "Tratamientos"
+  },
+  {
+    "title": "Aromaterapia",
+    "description": "Tratamiento medicina oriental",
+    "price": 2000,
+    "thumbnail": "https://img.freepik.com/vector-gratis/conjunto-elementos-aromaterapia-dibujados-mano-plana_23-2148832105.jpg?w=900&t=st=1691116698~exp=1691117298~hmac=a3f36566cd58a28308684e86836d780d481b120098ef5a4ad61251183c69ac91",
+    "code": "P6",
+    "stock": 20,
+    "id": 4,
+    "status": true,
+    "category": "Tratamientos"
+  },
+  {
+    "title": "Masaje Descontracturante",
+    "description": "Alivia las contracturas musculares y devuelve el tono",
+    "price": 2000,
+    "thumbnail": "https://img.freepik.com/vector-gratis/ilustracion-concepto-spa_114360-6800.jpg?w=900&t=st=1691116821~exp=1691117421~hmac=906a6220ec3c255e24a4a6320dc3c757e28a2570d30910c49613da411aa98dfa",
+    "code": "P7",
+    "stock": 20,
+    "id": 5,
+    "status": true,
+    "category": "Tratamientos"
+  },
+  {
+    "id": 6,
+    "title": "Punta de Diamante",
+    "description": "Tratamiento anti-age",
+    "code": "PuntaDiamant",
+    "price": 2300,
+    "thumbnail": "https://img.freepik.com/vector-gratis/ilustracion-cosmetologa-diseno-plano-dibujado-mano_52683-83578.jpg?w=900&t=st=1691117238~exp=1691117838~hmac=2c8fcc6c24c454c82d8e24b3b3d14c9667a0b477b11f04e7d5b1a2b51227f24e",
+    "status": true,
+    "stock": 10,
+    "category": "Tratamiento"
+  },
+  {
+    "id": 7,
+    "title": "Dia de spa",
+    "description": "Relajate por completo al mejor precio",
+    "price": 3300,
+    "thumbnail": [
+      "https://img.freepik.com/vector-gratis/tipos-composicion-plana-masaje-collage-iconos-velas-matraz-aceite-personajes-humanos-garabatos-ilustracion-vectorial_1284-81479.jpg?w=900&t=st=1691155280~exp=1691155880~hmac=f4d9c0e1c58566264dc024d1c1812e8610653057afba54e3691362198d0e61ac"
+    ],
+    "category": "Tratamiento",
+    "status": false,
+    "code": "DDS1",
+    "stock": 10
+  },
+  {
+    "id": 8,
+    "title": "Masaje con piedras calientes",
+    "description": "Masaje relajante con calor",
+    "price": "2000",
+    "thumbnail": "https://img.freepik.com/vector-gratis/ilustracion-concepto-spa_114360-6720.jpg?w=900&t=st=1691117876~exp=1691118476~hmac=10270f59e78be08af635981b821489c74ccceab7f8fe726f909bf8dbf928b4c2",
+    "category": "Tratamiento",
+    "status": true,
+    "code": "MCPC2",
+    "stock": "20"
+  }
+]

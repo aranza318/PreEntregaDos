@@ -1,0 +1,51 @@
+<div class="container">
+    <div class="row">
+        {{#each products.payload}}
+            <div class="col-md-4">
+                <div class="card" id="id-card">
+                    <div class="imgBx">
+                    <a href="/products/{{this._id}}" class="text-decoration-none">
+                        <img src="{{this.thumbnail}}" class="img-fluid" alt="{{this.title}}">
+                    </a></div>
+                    <div class="contentBx">
+                        <p class="card-text text-dark">{{this.title}}<br><span class="color">${{this.price}}</span></p>
+                        <p><button class="btn btn-dark" onclick="agregarProductoAlCarrito('{{product._id}}')">Agregar (+)</button></p>
+                    </div>
+                </div>
+            </div>
+        {{/each}}
+    </div>
+    <div class="row my-5">
+        <div class="col">
+            <nav>
+                <ul class="pagination justify-content-center">
+                    {{#if products.hasPrevPage}}
+                        <li class="page-item">
+                            <a class="page-link" href="{{products.prevLink}}"><<</a>
+                        </li>
+                    {{/if}}
+                    {{#if products.hasPrevPage}}
+                        <li class="page-item">
+                            <a class="page-link" href="{{products.prevLink}}">{{products.prevPage}}</a>
+                        </li>    
+                    {{/if}}
+                    <li class="page-item">
+                        <a class="page-link">{{products.page}}</a>
+                    </li>
+                    {{#if products.hasNextPage}}
+                        <li class="page-item">
+                            <a class="page-link" href="{{products.nextLink}}">{{products.nextPage}}</a>
+                        </li>    
+                    {{/if}}
+                    {{#if products.hasNextPage}}
+                        <li class="page-item">
+                            <a class="page-link" href="{{products.nextLink}}">>></a>
+                        </li>
+                    {{/if}}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+<script src="js/products.js"></script>

@@ -1,0 +1,20 @@
+<div class="container">
+    <div  class="row">
+       {{#each listaProductos}}
+<article class="container col-md-4">
+    <div class="card" id="id-card">
+        <div class="imgBx">
+            <img src={{thumbnail}} width="150"/>
+        </div>
+        <div class="contentBx">
+            <h2>{{title}}</h2>
+            <div class="color">
+                <h3>${{price}}</h3>
+            </div>
+        <a href="#"><button class="botons" type="button" id="addCart-btn">Comprar ahora</button> </a>
+        </div>
+    </div>
+</article>
+{{/each}}     
+    </div>
+</div>
